@@ -16,4 +16,8 @@ public class StudentService {
     public List<Student> getStudents() {
         return studentDao.getStudents();
     }
+
+    public List<Student> getStudentsReverse() {
+        return studentDao.getStudentsReverse();
+    }
 }

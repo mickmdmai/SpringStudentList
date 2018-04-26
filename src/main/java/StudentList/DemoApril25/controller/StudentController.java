@@ -18,4 +18,9 @@ public class StudentController {
     public List<Student> getStudents() {
         return studentService.getStudents();
     }
+
+    @GetMapping("/reverse")
+    public List<Student> getStudentsReverse() {
+        return studentService.getStudentsReverse();
+    }
 }
